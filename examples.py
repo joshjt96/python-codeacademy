@@ -110,3 +110,18 @@ removed_item = list.pop(4)
 # Use pop to remove last item in list. Eg:
 
 pizza_and_prices.pop()
+
+# zip()
+# The zip() function allows us to quickly combine associated data-sets without needing to rely on multi-dimensional lists. While zip() can work with many different scenarios, we are going to explore only a single one in this article.
+
+#Use zip() to create a new variable called names_and_dogs_names that combines owners and dogs_names lists into a zip object.
+#Then, create a new variable named list_of_names_and_dogs_names by calling the list() function on names_and_dogs_names.
+#Print list_of_names_and_dogs_names.
+
+owners = ["Jenny", "Alexus", "Sam", "Grace"]
+dogs_names = ["Elphonse", "Dr. Doggy DDS", "Carter", "Ralph"]
+
+names_and_dogs_names = zip(owners, dogs_names)
+
+list_of_names_and_dogs_names = list(names_and_dogs_names)
+print(list_of_names_and_dogs_names)

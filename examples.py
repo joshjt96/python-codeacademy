@@ -106,3 +106,7 @@ print(games_sorted)
 # Remove 5th element in list with pop:
 
 removed_item = list.pop(4)
+
+# Use pop to remove last item in list. Eg:
+
+pizza_and_prices.pop()
